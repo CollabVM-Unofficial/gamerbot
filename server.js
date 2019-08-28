@@ -1,8 +1,8 @@
 const riot = require('matrix-js-sdk');
 const webhook = require('webhook-discord'); //Hmm? What's this? its for riot to discord bridge Cool
-const hook = new webhook.Webhook('https://ptb.discordapp.com/api/webhooks/615364541131522077/heA_o08OygaPixBT33TMLHLvQg13pBsJu8W4LHkBaLBjCYqJCu25nciSqTqCgBrRIKHO')
+const hook = new webhook.Webhook('INSERT WEBHOOK URL HERE')
 const userid = '@gamerbot:matrix.org';
-const accesstoken = 'MDAxOGxvY2F0aW9uIG1hdHJpeC5vcmcKMDAxM2lkZW50aWZpZXIga2V5CjAwMTBjaWQgZ2VuID0gMQowMDI3Y2lkIHVzZXJfaWQgPSBAZ2FtZXJib3Q6bWF0cml4Lm9yZwowMDE2Y2lkIHR5cGUgPSBhY2Nlc3MKMDAyMWNpZCBub25jZSA9ID1HO342ekJKNlpRTzR1amEKMDAyZnNpZ25hdHVyZSCI1ea_GfKKoFlzwUX8a6o0Wz8fi1oIghX7fT6aL9dcLwo';  // dont mess with this part its for account login
+const accesstoken = 'INSERT RIOT TOKEN HERE';
 const client = riot.createClient({
   baseUrl: 'https://matrix.org',
   accessToken: accesstoken,
